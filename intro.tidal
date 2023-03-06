@@ -1,0 +1,53 @@
+setcps (140/60/4)
+d1 $ sound "choir"
+d2 $ sound "piano"
+d3 $ sound "singbowl"
+hush
+
+setcps (94/60/4) 
+d1 $ slow 7.023 $ sound "~ ~ ~ ~ ~ ~ ~ ~ choir:0 ~"
+d2 $ slow 8.45 $ sound "choir:1 ~ ~ ~ ~ ~ ~ ~ ~ ~"
+d3 $ slow 7.97 $ sound "~ ~ ~ ~ ~ ~ ~ choir:2 ~ ~"
+d4 $ slow 13.01 $ sound "~ ~ ~ ~ ~ ~ ~ choir:3 ~ ~"
+d5 $ slow 6.43 $ sound "~ ~ ~ ~ ~ choir:4 ~ ~ ~ ~"
+d6 $ slow 7.77 $ sound "~ ~ ~ ~ ~ ~ ~ ~ choir:5 ~"
+d7 $ slow 9.76 $ sound "choir:6 ~ ~ ~ ~ ~ ~ ~ ~ ~"
+
+setcps (94/60/4) 
+d1 $ slow 6.75 $ sound "~ ~ piano:0 ~ ~ ~ ~ ~ ~ ~"
+d2 $ slow 7.94 $ sound "~ ~ ~ ~ ~ ~ ~ ~ piano:1 ~"
+d3 $ slow 9.17 $ sound "~ ~ ~ ~ ~ piano:2 ~ ~ ~ ~"
+d4 $ slow 11.11 $ sound "~ ~ ~ ~ ~ ~ ~ piano:3 ~ ~"
+d5 $ slow 11.71 $ sound "~ ~ ~ ~ ~ ~ ~ ~ ~ piano:4"
+d6 $ slow 11.90 $ sound "~ ~ ~ ~ ~ ~ piano:5 ~ ~ ~"
+d7 $ slow 12.34 $ sound "~ piano:6 ~ ~ ~ ~ ~ ~ ~ ~"
+d8 $ slow 15.10 $ sound "~ ~ piano:7 ~ ~ ~ ~ ~ ~ ~"
+
+setcps (60/60/4) 
+d1 $ slow 15.75076760776053 $ sound "~ singbowl:0 ~ ~ ~ ~ ~ ~ ~ ~"
+d2 $ slow 16.696703102294023 $ sound "~ ~ ~ singbowl:1 ~ ~ ~ ~ ~ ~"
+d3 $ slow 17.193865665171028 $ sound "singbowl:2 ~ ~ ~ ~ ~ ~ ~ ~ ~"
+d4 $ slow 18.910658168380447 $ sound "~ ~ ~ ~ singbowl:3 ~ ~ ~ ~ ~"
+d5 $ slow 14.995519009242066 $ sound "~ ~ ~ ~ singbowl:4 ~ ~ ~ ~ ~"
+d6 $ slow 13.441729615075701 $ sound "~ ~ ~ ~ ~ ~ ~ singbowl:5 ~ ~"
+d7 $ slow 17.522417226012653 $ sound "~ ~ ~ ~ ~ ~ ~ singbowl:6 ~ ~"
+d8 $ slow 16.955362359673405 $ sound "~ ~ ~ ~ ~ ~ ~ ~ ~ singbowl:7"
+d9 $ slow 15.203897790358686 $ sound "~ ~ singbowl:8 ~ ~ ~ ~ ~ ~ ~"
+
+setcps (94/60/4) 
+d1 $ slow 11.984105824949484 $ sound "~ ~ ~ ~ ~ choir:0 ~ ~ ~ ~"
+d2 $ slow 9.929491030779875 $ sound "choir:1 ~ ~ ~ ~ ~ ~ ~ ~ ~"
+d3 $ slow 10.28338529726771 $ sound "~ ~ ~ ~ choir:2 ~ ~ ~ ~ ~"
+d4 $ slow 14.747381724945754 $ sound "~ choir:3 ~ ~ ~ ~ ~ ~ ~ ~"
+d5 $ slow 9.236664044209313 $ sound "~ ~ ~ ~ ~ ~ ~ choir:4 ~ ~"
+d6 $ slow 9.09382082310798 $ sound "~ choir:5 ~ ~ ~ ~ ~ ~ ~ ~"
+d7 $ slow 9.483308448867977 $ sound "~ ~ ~ ~ ~ ~ choir:6 ~ ~ ~"
+d8 $ slow 8.711650584573096 $ sound "~ singbowl:0 ~ ~ ~ ~ ~ ~ ~ ~"
+d9 $ slow 15.564090638734116 $ sound "~ ~ ~ singbowl:1 ~ ~ ~ ~ ~ ~"
+d10 $ slow 8.290133455017324 $ sound "~ ~ ~ ~ ~ ~ ~ ~ singbowl:2 ~"
+d11 $ slow 9.676148723923838 $ sound "singbowl:3 ~ ~ ~ ~ ~ ~ ~ ~ ~"
+d12 $ slow 8.73462364165102 $ sound "~ ~ ~ ~ ~ ~ singbowl:4 ~ ~ ~"
+d13 $ slow 14.904100136481187 $ sound "~ singbowl:5 ~ ~ ~ ~ ~ ~ ~ ~"
+d14 $ slow 10.254701318645711 $ sound "~ ~ ~ ~ ~ ~ ~ ~ ~ singbowl:6"
+d15 $ slow 11.969422303211244 $ sound "~ ~ ~ ~ ~ ~ singbowl:7 ~ ~ ~"
+d16 $ slow 14.915428998672892 $ sound "~ singbowl:8 ~ ~ ~ ~ ~ ~ ~ ~"
